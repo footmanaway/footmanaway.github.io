@@ -4,8 +4,11 @@
     <title>邵先生的博客</title>
 </head>
 <body>
-<h2>这是个黑白的世界</h2><br></br>
+<div class = "first">
+<h2>这是个黑白的世界</h2>
 <h3>你懂么？你真的懂么</h3>
+</div>
+
 
 </body>
 </html>
