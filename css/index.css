@@ -13,7 +13,7 @@ ul {
 #header {
 
     height: 3px;
-    margin: -7px -8px 0px -8px;
+    margin: 0px -8px 0px 0px;
 }
 
 body {
@@ -39,7 +39,6 @@ body {
 #nav ul li a{
     float: left;
     color: white;
-    margin-right: 20px;
     margin-top: 5px;
     width: 200px;
     font-size: 40px;
@@ -58,6 +57,7 @@ body {
 
 #list {
     background-color: white;
+    margin: 0px 0px 0px 50px;
     text-align: center;
 }
 
