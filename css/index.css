@@ -1,0 +1,102 @@
+
+a {
+    /*下划线*/
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    /*不要列表的所有原点*/
+    list-style: none;
+}
+
+#header {
+
+    height: 3px;
+    margin: -7px -8px 0px -8px;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    /*让图片拉伸*/
+    background-size: cover;
+}
+
+#nav {
+    margin: -12px -45px 0px -45px;
+    text-align: center;
+}
+
+#nav ul {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a{
+    float: left;
+    color: white;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#nav ul li a:hover {
+    background: white;
+    color: black;
+}
+
+#nav ul li a.select {
+    background: white;
+    color: black;
+}
+
+#list {
+    background-color: white;
+    text-align: center;
+}
+
+/*#list .dom img {*/
+    /*width: 290px;*/
+    /*height: 180px;*/
+    /*text-align: center;*/
+/*}*/
+
+#list .dom {
+    width: 382px;
+    height: 330px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#list .dom img {
+    width: 382px;
+    height: 200px;
+}
+
+
+#list .dom p {
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+#list .dom a {
+    background-color: #c03928;
+    color: white;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#list .dom a:hover {
+    background: rgb(11,17,15);
+}
+
