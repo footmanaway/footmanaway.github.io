@@ -7,12 +7,20 @@
     <script>
         function alert()
         {
-            alert("我是一个提醒框");
+           var test=document.getElementById('input1');
+
+           if (test.onclick = true) {
+               test.value="再看就喝了你";
+           }else {
+               test.value="不要再看了";
+           }
+
         }
     </script>
 
 </head>
 <body>
+    <input id="input1" type="button" value="点我" onclick="alert()">
 <!-- 头部-->
 <div id="header">
     <a href="#"></a>
@@ -20,7 +28,7 @@
 <!-- 导航-->
 <div id="nav">
     <ul>
-        <li> <a href="#" class="select" onclick="alert()">首页</a></li>
+        <li> <a href="#" class="select">首页</a></li>
         <li> <a href="#">商城</a></li>
         <li> <a href="#">下载</a></li>
         <li> <a href="#">论坛</a></li>
